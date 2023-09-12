@@ -14,7 +14,7 @@ rule and each email receiver in the Action Group(s).
 One or more Alert Rule objects collected by Get-AzActivityLogAlert.
 
 ## Example:
-Get-AzActivityLogAlert | Select-SvcHealthAlertRule `
+Get-AzActivityLogAlert | Select-SvcHealthAlertRule
 | Select-Object -Property AlertRuleName, ActionGroupName, EmailReceivers
 
 ## Example:
