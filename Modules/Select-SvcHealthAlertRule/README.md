@@ -19,4 +19,5 @@ Get-AzActivityLogAlert | Select-SvcHealthAlertRule
 
 ## Example:
 Get-AzActivityLogAlert | Select-SvcHealthAlertRule -verbose
+
 Will run Select-SvcHealthAlertRule and output Write-Verbose information
